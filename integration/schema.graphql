@@ -1,0 +1,31 @@
+# Given a couple of enums
+enum E1 {
+  E1_V1
+  E1_v2
+}
+
+enum E2 {
+  E2_V1
+  E2_V2
+}
+
+# A Standard enum detail type
+type E1Detail {
+  code: E1!
+  name: String!
+}
+
+# A enum detail with an extra column
+type E2Detail {
+  code: E1!
+  name: String!
+  sortOrder: Int!
+}
+
+# And another type which has name/code fields, but doesn't match the naming convention for enum details
+type OtherTypeWithCodeAndName {
+  id: ID!
+  code: E1!
+  name: String!
+  otherFields: Int!
+}
