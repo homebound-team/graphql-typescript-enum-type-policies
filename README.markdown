@@ -1,4 +1,4 @@
-[![NPM](https://img.shields.io/npm/v/@homebound/graphql-typescript-enum-type-policies)](https://www.npmjs.com/package/@homebound/graphql-typescript-graphql-typescript-enum-type-policies)
+[![NPM](https://img.shields.io/npm/v/@homebound/graphql-typescript-enum-type-policies)](https://www.npmjs.com/package/@homebound/graphql-typescript-enum-type-policies)
 
 This is a [graphql-code-generator](https://graphql-code-generator.com/) plugin that generates type policies for
 `enum detail` types within your schema.
