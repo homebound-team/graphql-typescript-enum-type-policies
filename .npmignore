@@ -2,3 +2,14 @@
 /src
 /.idea
 /.circleci
+/.yarn
+/integration
+/.nvmrc
+/.prettierrc.js
+/.yarnrc.yml
+/.prettierrc.js
+/.yarnrc.yml
+/bump.js
+/package.json.bak
+/yarn.lock
+/tsconfig.json
