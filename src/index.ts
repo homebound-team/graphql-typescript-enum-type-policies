@@ -16,7 +16,7 @@ export const plugin: PluginFunction<{}> = async (schema) => {
     export const enumTypePolicies = {
       ${enumTypePolicyFields.join("")}
     };
-  `.toStringWithImports();
+  `.toString();
   return { content } as PluginOutput;
 };
 
